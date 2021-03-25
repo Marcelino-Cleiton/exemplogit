@@ -3,3 +3,19 @@ h1 {
     color : red;
     text-decoration: underline;
 }
+body{
+    text-align: center;
+}
+p{
+    width: 200;
+    margin: auto;
+}
+.hello-word {
+    width: 200px;
+    margin: auto;
+    text-align: left;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

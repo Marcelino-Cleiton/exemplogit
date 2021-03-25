@@ -9,6 +9,21 @@
 </head>
 <body>
     <h1>Hello Word</h1>
-    <p>Bem-vindo a programação Web!</p>
+    <p>Bem-vindo a programação Web!</p> 
+    <p class="hello-word">
+        Digite o seu nome:<br>
+        <input type="text"/><br>
+        <button onclick="helloWord()">OK</button>
+    </p>
+    <script>
+        function helloWord(){
+            var inputs = document.getElementsByTagName('input');
+            var input = inputs [0];
+            var nome  = input.value;
+            window.alert("Hello Word, " + nome);
+            input.value='';
+        }
+        
+    </script>
 </body>
 </html>
